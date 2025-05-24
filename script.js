@@ -13,4 +13,4 @@ let markHigherBMI = (BMIMark>BMIJohn);
 console.log (markHigherBMI);
 
 console.log ("IMCul lui Mark este mai mare ca acel al lui John.")
-console.log (`IMCul lui Mark" (${BMIMark}) este mai mare ca IMCul lui John (${BMIJohn})`)
+console.log (`IMCul lui Mark ${BMIMark>BMIJohn ? `este`: `nu este`} mai mare ca IMCul lui John`)
